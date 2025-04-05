@@ -23,8 +23,8 @@ User 🔗 → Route 53 (DNS) 🔗 → CloudFront (CDN) 🔗 → S3 (Website File
 
 ### **1️⃣ Create an S3 Bucket for Hosting**
 1. Go to the AWS **S3** console.
-2. Click **Create Bucket** and enter your domain name (e.g., `yourdomain.com`).
-3. **Disable Block Public Access**.
+2. Click **Create Bucket** with your domain name (e.g., `yourdomain.com`).
+3. **Disable Block Public Access**and upload application files in object
 4. Enable **Static Website Hosting** and note the **endpoint URL**.
 
 ![image](https://github.com/user-attachments/assets/b31b11ac-9e4b-4506-8f57-4ec86f8f5b10)
